@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		96CBB7291FCB504300FBC7B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB7281FCB504300FBC7B7 /* AppDelegate.swift */; };
-		96CBB72B1FCB504300FBC7B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB72A1FCB504300FBC7B7 /* ViewController.swift */; };
+		96CBB72B1FCB504300FBC7B7 /* CompaniesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB72A1FCB504300FBC7B7 /* CompaniesController.swift */; };
 		96CBB72E1FCB504300FBC7B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CBB72C1FCB504300FBC7B7 /* Main.storyboard */; };
 		96CBB7301FCB504300FBC7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CBB72F1FCB504300FBC7B7 /* Assets.xcassets */; };
 		96CBB7331FCB504300FBC7B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CBB7311FCB504300FBC7B7 /* LaunchScreen.storyboard */; };
+		96CBB73B1FCB655E00FBC7B7 /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB73A1FCB655E00FBC7B7 /* UIColor+theme.swift */; };
+		96CBB73D1FCB711D00FBC7B7 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB73C1FCB711D00FBC7B7 /* Company.swift */; };
+		96CBB73F1FCB765A00FBC7B7 /* CreateCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB73E1FCB765A00FBC7B7 /* CreateCompanyController.swift */; };
+		96CBB7421FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB7401FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodeld */; };
+		96CBB7441FCCC24700FBC7B7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBB7431FCCC24700FBC7B7 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96CBB7251FCB504300FBC7B7 /* IntermediateTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CBB7281FCB504300FBC7B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96CBB72A1FCB504300FBC7B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96CBB72A1FCB504300FBC7B7 /* CompaniesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesController.swift; sourceTree = "<group>"; };
 		96CBB72D1FCB504300FBC7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96CBB72F1FCB504300FBC7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CBB7321FCB504300FBC7B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96CBB7341FCB504300FBC7B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CBB73A1FCB655E00FBC7B7 /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		96CBB73C1FCB711D00FBC7B7 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		96CBB73E1FCB765A00FBC7B7 /* CreateCompanyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyController.swift; sourceTree = "<group>"; };
+		96CBB7411FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntermediateTrainingModels.xcdatamodel; sourceTree = "<group>"; };
+		96CBB7431FCCC24700FBC7B7 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				96CBB7281FCB504300FBC7B7 /* AppDelegate.swift */,
-				96CBB72A1FCB504300FBC7B7 /* ViewController.swift */,
+				96CBB72A1FCB504300FBC7B7 /* CompaniesController.swift */,
+				96CBB7401FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodeld */,
+				96CBB73E1FCB765A00FBC7B7 /* CreateCompanyController.swift */,
+				96CBB7431FCCC24700FBC7B7 /* CoreDataManager.swift */,
+				96CBB73A1FCB655E00FBC7B7 /* UIColor+theme.swift */,
+				96CBB73C1FCB711D00FBC7B7 /* Company.swift */,
 				96CBB72C1FCB504300FBC7B7 /* Main.storyboard */,
 				96CBB72F1FCB504300FBC7B7 /* Assets.xcassets */,
 				96CBB7311FCB504300FBC7B7 /* LaunchScreen.storyboard */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96CBB72B1FCB504300FBC7B7 /* ViewController.swift in Sources */,
+				96CBB73B1FCB655E00FBC7B7 /* UIColor+theme.swift in Sources */,
+				96CBB72B1FCB504300FBC7B7 /* CompaniesController.swift in Sources */,
+				96CBB73F1FCB765A00FBC7B7 /* CreateCompanyController.swift in Sources */,
 				96CBB7291FCB504300FBC7B7 /* AppDelegate.swift in Sources */,
+				96CBB7421FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodeld in Sources */,
+				96CBB7441FCCC24700FBC7B7 /* CoreDataManager.swift in Sources */,
+				96CBB73D1FCB711D00FBC7B7 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +342,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96CBB7401FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96CBB7411FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodel */,
+			);
+			currentVersion = 96CBB7411FCC9B6A00FBC7B7 /* IntermediateTrainingModels.xcdatamodel */;
+			path = IntermediateTrainingModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 96CBB71D1FCB504300FBC7B7 /* Project object */;
 }
